@@ -1,12 +1,3 @@
-public class duplicate {
-    public int k;
-    public int[] nums;
-
-    public duplicate(int k, int[] nums) {
-        this.k = k;
-        this.nums = nums;
-    }
-}
 
 class Solution {
     public int removeDuplicates(int[] nums) {
