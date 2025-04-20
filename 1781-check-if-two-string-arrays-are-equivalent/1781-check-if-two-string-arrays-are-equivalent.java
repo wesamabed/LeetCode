@@ -7,12 +7,12 @@ class Solution {
                 return false;
             }
             w1++;
-            if (w1 >= word1[i].length()) {
+            if (w1 == word1[i].length()) {
                 w1 = 0 ;
                 i ++;
             }
             w2++;
-            if (w2 >= word2[j].length()) {
+            if (w2 == word2[j].length()) {
                 w2 = 0 ;
                 j ++;
             }
