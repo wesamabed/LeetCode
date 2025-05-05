@@ -39,9 +39,19 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/wesamabed/LeetCode/tree/master/0021-merge-two-sorted-lists) |
+| [0143-reorder-list](https://github.com/wesamabed/LeetCode/tree/master/0143-reorder-list) |
 | [0231-power-of-two](https://github.com/wesamabed/LeetCode/tree/master/0231-power-of-two) |
 ## Linked List
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/wesamabed/LeetCode/tree/master/0021-merge-two-sorted-lists) |
+| [0143-reorder-list](https://github.com/wesamabed/LeetCode/tree/master/0143-reorder-list) |
+## Two Pointers
+|  |
+| ------- |
+| [0143-reorder-list](https://github.com/wesamabed/LeetCode/tree/master/0143-reorder-list) |
+## Stack
+|  |
+| ------- |
+| [0143-reorder-list](https://github.com/wesamabed/LeetCode/tree/master/0143-reorder-list) |
 <!---LeetCode Topics End-->
