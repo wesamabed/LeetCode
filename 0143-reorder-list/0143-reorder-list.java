@@ -22,9 +22,9 @@ class Solution {
         if (prev != null)
             prev.next = null;
 
-        ListNode reversed = null;
+        ListNode reversed = null, next = null;
         while (slow != null) {
-            ListNode next = slow.next;
+            next = slow.next;
             slow.next = reversed;
             reversed = slow;
             slow = next;
