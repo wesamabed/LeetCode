@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1781-check-if-two-string-arrays-are-equivalent](https://github.com/wesamabed/LeetCode/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
+| [2102-find-the-middle-index-in-array](https://github.com/wesamabed/LeetCode/tree/master/2102-find-the-middle-index-in-array) |
 ## String
 |  |
 | ------- |
@@ -60,4 +61,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0141-linked-list-cycle](https://github.com/wesamabed/LeetCode/tree/master/0141-linked-list-cycle) |
+## Prefix Sum
+|  |
+| ------- |
+| [2102-find-the-middle-index-in-array](https://github.com/wesamabed/LeetCode/tree/master/2102-find-the-middle-index-in-array) |
 <!---LeetCode Topics End-->
