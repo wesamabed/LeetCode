@@ -1,33 +1,29 @@
 class Solution {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         List<List<Integer>> adj = new ArrayList<>(numCourses);
-        int[] inDegree = new int[numCourses];
-        for (int i = 0; i < numCourses; i++){
-            adj.add(new ArrayList<>());
+        int[] visited = new int[numCourses];
+        for(int i = 0; i < numCourses; i++){
+            adj.add(i, new ArrayList<>());
         }
-        for (int[] pair: prerequisites){
-            int course = pair[0];
-            int pre = pair[1];
+        for(int[] prerequisite: prerequisites){
+            int course = prerequisite[0];
+            int pre = prerequisite[1];
             adj.get(pre).add(course);
-            inDegree[course]++;
         }
-        Queue<Integer> queue = new ArrayDeque<>();
-        int count = 0;
-        for (int i = 0; i < adj.size(); i++){
-            if (inDegree[i] == 0) queue.offer(i);
+        for(int i = 0; i < numCourses; i++){
+            if (!dfs(i, adj, visited)) return false;
         }
-        if(queue.isEmpty()) return false;
-        while(!queue.isEmpty()){
-            int curr = queue.poll();
-            count++;
-            inDegree[curr]--;
-            List<Integer> dependents = adj.get(curr);
-            for(int neigh: dependents){
-                inDegree[neigh]--;
-                if(inDegree[neigh] == 0) queue.offer(neigh);
-            }
+        return true;
+    }
+    private boolean dfs(int course, List<List<Integer>> adj, int[] visited){
+        if(visited[course] == 2) return true;
+        if(visited[course] == 1) return false;
+        visited[course] = 1;
+        List<Integer> courses = adj.get(course);
+        for(int curr: courses){
+            if (!dfs(curr, adj, visited)) return false;
         }
-
-        return count == numCourses;
+        visited[course] = 2;
+        return true;
     }
 }
