@@ -8,7 +8,7 @@ class Solution {
         for(int[] prerequisite: prerequisites){
             int course = prerequisite[0];
             int pre = prerequisite[1];
-            adj.get(pre).add(course);
+            adj.get(course).add(pre);
         }
         for(int i = 0; i < numCourses; i++){
             if (!dfs(i, adj, visited)) return false;
