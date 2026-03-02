@@ -3,10 +3,10 @@ class Solution {
         List<List<Integer>> adj = new ArrayList<>(numCourses);
         int[] visited = new int[numCourses];
         int[] order = new int[numCourses];
-        int[] count = {numCourses - 1};
+        int[] count = {0};
         for(int i = 0; i < numCourses; i++) adj.add(i, new ArrayList<>());
         for(int[] prerequisite: prerequisites){
-            adj.get(prerequisite[1]).add(prerequisite[0]);
+            adj.get(prerequisite[0]).add(prerequisite[1]);
         } 
         for (int i = 0; i < numCourses; i++){
             if(!canFinish(i, adj, visited, order, count)) return new int[0];
@@ -24,7 +24,7 @@ class Solution {
         }
         visited[course] = 2;
         order[count[0]] = course;
-        count[0] --;
+        count[0] ++;
         return true;
     }
 }
