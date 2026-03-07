@@ -7,6 +7,8 @@ class Solution {
     }
     private int calc(int n, Map<Integer, Integer> map){
         if(map.containsKey(n)) return map.get(n);
-        return calc(n - 1, map) + calc(n - 2, map);
+        int fib = calc(n - 1, map) + calc(n - 2, map);
+        map.put(n, fib);
+        return fib;
     }
 }
