@@ -1,21 +1,19 @@
 class Solution {
     public int rob(int[] nums) {
         if(nums.length == 0) return 0;
-        if(nums.length == 1) return nums[0];
-        if(nums.length == 2) return Math.max(nums[0], nums[1]);
-        int[] memo = new int[nums.length + 1];
-        int choiceA = nums[nums.length - 1] + calc(nums, memo, nums.length - 3);
-        int choiceB = calc(nums, memo, nums.length - 2);
-        return Math.max(choiceA, choiceB);
+        int[] memo = new int[nums.length];
+        Arrays.fill(memo, -1);
+        return computeMaxProfit(nums, memo, nums.length - 1);
+
 
     }
-    private int calc(int[] nums, int[] memo, int n){
+    private int computeMaxProfit(int[] nums, int[] memo, int n){
         if(n < 0) return 0;
-        if(nums[n] == 0) return 0;
-        if(memo[n] != 0) return memo[n];
-        int choiceA = nums[n] + calc(nums, memo, n - 2);
-        int choiceB = calc(nums, memo, n - 1);
-        memo[n] = Math.max(choiceA, choiceB);
+        if(n == 0) return nums[0];
+        if(memo[n] != -1) return memo[n];
+        int rop = nums[n] + computeMaxProfit(nums, memo, n - 2);
+        int skip = computeMaxProfit(nums, memo, n - 1);
+        memo[n] = Math.max(rop, skip);
         return memo[n];
     }
 }
