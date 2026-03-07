@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0049-group-anagrams](https://github.com/wesamabed/LeetCode/tree/master/0049-group-anagrams) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/wesamabed/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0198-house-robber](https://github.com/wesamabed/LeetCode/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/wesamabed/LeetCode/tree/master/0200-number-of-islands) |
 | [0347-top-k-frequent-elements](https://github.com/wesamabed/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/wesamabed/LeetCode/tree/master/0373-find-k-pairs-with-smallest-sums) |
@@ -113,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0070-climbing-stairs](https://github.com/wesamabed/LeetCode/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/wesamabed/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0198-house-robber](https://github.com/wesamabed/LeetCode/tree/master/0198-house-robber) |
 | [0509-fibonacci-number](https://github.com/wesamabed/LeetCode/tree/master/0509-fibonacci-number) |
 ## Sliding Window
 |  |
