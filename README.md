@@ -63,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/wesamabed/LeetCode/tree/master/0070-climbing-stairs) |
 | [0231-power-of-two](https://github.com/wesamabed/LeetCode/tree/master/0231-power-of-two) |
 | [0509-fibonacci-number](https://github.com/wesamabed/LeetCode/tree/master/0509-fibonacci-number) |
 | [1274-number-of-days-between-two-dates](https://github.com/wesamabed/LeetCode/tree/master/1274-number-of-days-between-two-dates) |
@@ -110,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/wesamabed/LeetCode/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/wesamabed/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0509-fibonacci-number](https://github.com/wesamabed/LeetCode/tree/master/0509-fibonacci-number) |
 ## Sliding Window
@@ -174,5 +176,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Memoization
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/wesamabed/LeetCode/tree/master/0070-climbing-stairs) |
 | [0509-fibonacci-number](https://github.com/wesamabed/LeetCode/tree/master/0509-fibonacci-number) |
 <!---LeetCode Topics End-->
