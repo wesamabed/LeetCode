@@ -4,7 +4,7 @@ class Solution {
         List<List<Integer>> list = new ArrayList<>();
         Arrays.sort(nums);
         for(int i = 0; i < nums.length; i++){
-            if (i > 0 && nums[i] == nums[i - 1]) continue;
+            if(i > 0 && nums[i] == nums[i-1]) continue;
             int low = i + 1;
             int high = nums.length - 1;
             while(low < high){
@@ -16,15 +16,10 @@ class Solution {
                     low++;
                     high--;
                 }
-                if(sum < 0){
-                    low++;
-                }
-                if(sum > 0){
-                    high--;
-                }
+                else if(sum < 0) low++;
+                else high--;
             }
         }
-
         return list;
     }
 }
