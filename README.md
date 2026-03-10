@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/wesamabed/LeetCode/tree/master/0001-two-sum) |
+| [0015-3sum](https://github.com/wesamabed/LeetCode/tree/master/0015-3sum) |
 | [0049-group-anagrams](https://github.com/wesamabed/LeetCode/tree/master/0049-group-anagrams) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/wesamabed/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0198-house-robber](https://github.com/wesamabed/LeetCode/tree/master/0198-house-robber) |
@@ -93,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0015-3sum](https://github.com/wesamabed/LeetCode/tree/master/0015-3sum) |
 | [0141-linked-list-cycle](https://github.com/wesamabed/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/wesamabed/LeetCode/tree/master/0143-reorder-list) |
 | [0876-middle-of-the-linked-list](https://github.com/wesamabed/LeetCode/tree/master/0876-middle-of-the-linked-list) |
@@ -129,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/wesamabed/LeetCode/tree/master/0015-3sum) |
 | [0049-group-anagrams](https://github.com/wesamabed/LeetCode/tree/master/0049-group-anagrams) |
 | [0242-valid-anagram](https://github.com/wesamabed/LeetCode/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/wesamabed/LeetCode/tree/master/0347-top-k-frequent-elements) |
