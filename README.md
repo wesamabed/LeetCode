@@ -116,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0143-reorder-list](https://github.com/wesamabed/LeetCode/tree/master/0143-reorder-list) |
+| [0155-min-stack](https://github.com/wesamabed/LeetCode/tree/master/0155-min-stack) |
 | [0234-palindrome-linked-list](https://github.com/wesamabed/LeetCode/tree/master/0234-palindrome-linked-list) |
 ## Hash Table
 |  |
@@ -215,4 +216,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0680-valid-palindrome-ii](https://github.com/wesamabed/LeetCode/tree/master/0680-valid-palindrome-ii) |
+## Design
+|  |
+| ------- |
+| [0155-min-stack](https://github.com/wesamabed/LeetCode/tree/master/0155-min-stack) |
 <!---LeetCode Topics End-->
