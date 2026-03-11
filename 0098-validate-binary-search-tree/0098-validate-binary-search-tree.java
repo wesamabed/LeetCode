@@ -22,7 +22,8 @@ class Solution {
     }
     private boolean bst(TreeNode root, long min, long max){
         if(root == null) return true;
+        boolean b = bst(root.left, min, root.val) && bst(root.right, root.val, max);
         if(root.val <= min || root.val >= max) return false;
-        return bst(root.left, min, root.val) && bst(root.right, root.val, max);
+        return b;
     }
 }
