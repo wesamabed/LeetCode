@@ -16,15 +16,15 @@
 class Solution {
     public int kthSmallest(TreeNode root, int k) {
         if(root == null) return 0;
-        PriorityQueue<Integer> minHeap = new PriorityQueue<>((a, b) -> a - b);
-        traverse(root, minHeap);
-        for(int i = 0; i < k - 1; i++) minHeap.poll();
-        return minHeap.poll();
+        int[] track = {1, 0};
+        traverse(root, track, k);
+        return track[1];
     }
-    private void traverse(TreeNode root, PriorityQueue minHeap){
+    private void traverse(TreeNode root, int[] track, int k){
         if(root == null) return;
-        minHeap.offer(root.val);
-        traverse(root.left, minHeap);
-        traverse(root.right, minHeap);
+        traverse(root.left, track, k);
+        if(k == track[0]) track[1] = root.val;
+        track[0]+=1;
+        traverse(root.right, track, k);
     }
 }
