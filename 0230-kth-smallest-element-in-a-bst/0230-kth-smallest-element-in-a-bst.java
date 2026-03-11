@@ -16,15 +16,18 @@
 class Solution {
     public int kthSmallest(TreeNode root, int k) {
         if(root == null) return 0;
-        int[] track = {1, 0};
+        int[] track = {0, -1};
         traverse(root, track, k);
         return track[1];
     }
     private void traverse(TreeNode root, int[] track, int k){
-        if(root == null) return;
+        if(root == null || track[0] >= k) return;
         traverse(root.left, track, k);
-        if(k == track[0]) track[1] = root.val;
-        track[0]+=1;
-        traverse(root.right, track, k);
+        track[0]++;
+        if(k == track[0]){
+            track[1] = root.val;
+            return;
+        }
+        if(track[0] < k) traverse(root.right, track, k);
     }
 }
