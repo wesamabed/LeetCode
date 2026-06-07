@@ -7,17 +7,12 @@ class Solution {
         int right = 0;
         while(right < s.length()){
             char c = s.charAt(right);
-            if(!map.containsKey(c)){
-                 map.put(c, right);
-                 max = Math.max(max, right - left + 1);
-                 right++;
-            }
-            else{
+            if(map.containsKey(c)){
                 left = Math.max(left, map.get(c) + 1);
-                map.put(c, right);
-                max = Math.max(max, right - left + 1);
-                right++;
             }
+            map.put(c, right);
+            max = Math.max(max, right - left + 1);
+            right++;
         }
         return max;
     }
