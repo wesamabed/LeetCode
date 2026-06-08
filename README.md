@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/wesamabed/LeetCode/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/wesamabed/LeetCode/tree/master/0200-number-of-islands) |
 | [0209-minimum-size-subarray-sum](https://github.com/wesamabed/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
+| [0217-contains-duplicate](https://github.com/wesamabed/LeetCode/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/wesamabed/LeetCode/tree/master/0238-product-of-array-except-self) |
 | [0347-top-k-frequent-elements](https://github.com/wesamabed/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/wesamabed/LeetCode/tree/master/0373-find-k-pairs-with-smallest-sums) |
@@ -142,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0133-clone-graph](https://github.com/wesamabed/LeetCode/tree/master/0133-clone-graph) |
 | [0141-linked-list-cycle](https://github.com/wesamabed/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/wesamabed/LeetCode/tree/master/0160-intersection-of-two-linked-lists) |
+| [0217-contains-duplicate](https://github.com/wesamabed/LeetCode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/wesamabed/LeetCode/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/wesamabed/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/wesamabed/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
@@ -170,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/wesamabed/LeetCode/tree/master/0015-3sum) |
 | [0049-group-anagrams](https://github.com/wesamabed/LeetCode/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/wesamabed/LeetCode/tree/master/0056-merge-intervals) |
+| [0217-contains-duplicate](https://github.com/wesamabed/LeetCode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/wesamabed/LeetCode/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/wesamabed/LeetCode/tree/master/0347-top-k-frequent-elements) |
 ## Binary Search Tree
