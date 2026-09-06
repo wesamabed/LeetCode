@@ -6,6 +6,7 @@ class Solution {
         charCount[s.charAt(i) - 'a'] ++;
         charCount[t.charAt(i) - 'a'] --;
        }
-       return Arrays.equals(charCount, new int[26]);
+       for(int count: charCount) if(count != 0) return false;
+       return true;
     }
 }
