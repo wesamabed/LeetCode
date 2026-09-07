@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/wesamabed/LeetCode/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/wesamabed/LeetCode/tree/master/0056-merge-intervals) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/wesamabed/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0169-majority-element](https://github.com/wesamabed/LeetCode/tree/master/0169-majority-element) |
 | [0198-house-robber](https://github.com/wesamabed/LeetCode/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/wesamabed/LeetCode/tree/master/0200-number-of-islands) |
 | [0209-minimum-size-subarray-sum](https://github.com/wesamabed/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
@@ -148,6 +149,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0133-clone-graph](https://github.com/wesamabed/LeetCode/tree/master/0133-clone-graph) |
 | [0141-linked-list-cycle](https://github.com/wesamabed/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/wesamabed/LeetCode/tree/master/0160-intersection-of-two-linked-lists) |
+| [0169-majority-element](https://github.com/wesamabed/LeetCode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/wesamabed/LeetCode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/wesamabed/LeetCode/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/wesamabed/LeetCode/tree/master/0347-top-k-frequent-elements) |
@@ -178,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/wesamabed/LeetCode/tree/master/0015-3sum) |
 | [0049-group-anagrams](https://github.com/wesamabed/LeetCode/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/wesamabed/LeetCode/tree/master/0056-merge-intervals) |
+| [0169-majority-element](https://github.com/wesamabed/LeetCode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/wesamabed/LeetCode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/wesamabed/LeetCode/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/wesamabed/LeetCode/tree/master/0347-top-k-frequent-elements) |
@@ -211,6 +214,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/wesamabed/LeetCode/tree/master/0023-merge-k-sorted-lists) |
+| [0169-majority-element](https://github.com/wesamabed/LeetCode/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/wesamabed/LeetCode/tree/master/0347-top-k-frequent-elements) |
 ## Heap (Priority Queue)
 |  |
@@ -225,6 +229,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/wesamabed/LeetCode/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/wesamabed/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0387-first-unique-character-in-a-string](https://github.com/wesamabed/LeetCode/tree/master/0387-first-unique-character-in-a-string) |
 ## Quickselect
@@ -270,4 +275,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1661-average-time-of-process-per-machine](https://github.com/wesamabed/LeetCode/tree/master/1661-average-time-of-process-per-machine) |
 | [1683-invalid-tweets](https://github.com/wesamabed/LeetCode/tree/master/1683-invalid-tweets) |
 | [1757-recyclable-and-low-fat-products](https://github.com/wesamabed/LeetCode/tree/master/1757-recyclable-and-low-fat-products) |
+## Boyer–Moore Majority Vote Algorithm
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/wesamabed/LeetCode/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
