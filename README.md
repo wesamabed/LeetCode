@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0238-product-of-array-except-self](https://github.com/wesamabed/LeetCode/tree/master/0238-product-of-array-except-self) |
 | [0347-top-k-frequent-elements](https://github.com/wesamabed/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/wesamabed/LeetCode/tree/master/0373-find-k-pairs-with-smallest-sums) |
+| [0977-squares-of-a-sorted-array](https://github.com/wesamabed/LeetCode/tree/master/0977-squares-of-a-sorted-array) |
 | [1781-check-if-two-string-arrays-are-equivalent](https://github.com/wesamabed/LeetCode/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
 | [2102-find-the-middle-index-in-array](https://github.com/wesamabed/LeetCode/tree/master/2102-find-the-middle-index-in-array) |
 ## String
@@ -126,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/wesamabed/LeetCode/tree/master/0234-palindrome-linked-list) |
 | [0680-valid-palindrome-ii](https://github.com/wesamabed/LeetCode/tree/master/0680-valid-palindrome-ii) |
 | [0876-middle-of-the-linked-list](https://github.com/wesamabed/LeetCode/tree/master/0876-middle-of-the-linked-list) |
+| [0977-squares-of-a-sorted-array](https://github.com/wesamabed/LeetCode/tree/master/0977-squares-of-a-sorted-array) |
 ## Stack
 |  |
 | ------- |
@@ -175,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/wesamabed/LeetCode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/wesamabed/LeetCode/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/wesamabed/LeetCode/tree/master/0347-top-k-frequent-elements) |
+| [0977-squares-of-a-sorted-array](https://github.com/wesamabed/LeetCode/tree/master/0977-squares-of-a-sorted-array) |
 ## Binary Search Tree
 |  |
 | ------- |
