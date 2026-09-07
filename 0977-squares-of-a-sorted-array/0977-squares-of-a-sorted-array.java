@@ -7,16 +7,15 @@ class Solution {
         while(left <= right){
             int leftSquare = nums[left] * nums[left];
             int rightSquare = nums[right] * nums[right];
-            if(leftSquare < rightSquare){
+            if(rightSquare > leftSquare){
                 sorted[i] = rightSquare;
-                right --;
-                i--;
+                right--;
             }
-            if(leftSquare >= rightSquare){
+            else{
                 sorted[i] = leftSquare;
                 left++;
-                i--;
             }
+            i--;
         }
         return sorted;  
     }
