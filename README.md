@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/wesamabed/LeetCode/tree/master/0283-move-zeroes) |
 | [0347-top-k-frequent-elements](https://github.com/wesamabed/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/wesamabed/LeetCode/tree/master/0373-find-k-pairs-with-smallest-sums) |
+| [0643-maximum-average-subarray-i](https://github.com/wesamabed/LeetCode/tree/master/0643-maximum-average-subarray-i) |
 | [0977-squares-of-a-sorted-array](https://github.com/wesamabed/LeetCode/tree/master/0977-squares-of-a-sorted-array) |
 | [1781-check-if-two-string-arrays-are-equivalent](https://github.com/wesamabed/LeetCode/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
 | [2102-find-the-middle-index-in-array](https://github.com/wesamabed/LeetCode/tree/master/2102-find-the-middle-index-in-array) |
@@ -174,6 +175,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/wesamabed/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0209-minimum-size-subarray-sum](https://github.com/wesamabed/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
 | [0424-longest-repeating-character-replacement](https://github.com/wesamabed/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
+| [0643-maximum-average-subarray-i](https://github.com/wesamabed/LeetCode/tree/master/0643-maximum-average-subarray-i) |
 ## Sorting
 |  |
 | ------- |
